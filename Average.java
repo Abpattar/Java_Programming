@@ -16,5 +16,6 @@ public class Average {
         }
         double avg = sum / n;
         System.out.println("Average marks of students: " + avg);
+        sc.close();
     }
 }
