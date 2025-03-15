@@ -7,7 +7,7 @@ public class Prime
 try{
     int n , p = 0;
     Scanner obj = new Scanner(System.in);
-    System.out.println("Enter a Number :")
+    System.out.println("Enter a Number :");
     n = obj.nextInt();
     for(int i = 2 ;i<=(n+1)/2; i++)
     {
