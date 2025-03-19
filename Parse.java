@@ -11,8 +11,8 @@ public class Parse{
             String str = obj.nextLine();
             System.out.println("Enter the 2nd Number (String) ");
             String str2 = obj.nextLine();
-            int num1 = Integer.parseInt();
-            int num2 = Integer.parseInt();
+            int num1 = Integer.parseInt(str);
+            int num2 = Integer.parseInt(str2);
         }
     }
 }
