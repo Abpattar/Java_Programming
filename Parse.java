@@ -19,6 +19,6 @@ public class Parse{
             System.out.println("Product : "+(num1*num2));
             System.out.println("Quotient : "+(num1/num2));
             obj.close();
-        }
+        }catch(Exception e){System.out.println("Invalid Input");}
     }
 }
