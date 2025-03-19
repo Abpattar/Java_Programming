@@ -11,8 +11,14 @@ public class Parse{
             String str = obj.nextLine();
             System.out.println("Enter the 2nd Number (String) ");
             String str2 = obj.nextLine();
-            int num1 = Integer.parseInt(str);
-            int num2 = Integer.parseInt(str2);
+            float num1 = Float.parseFloat(str);
+            float num2 = Float.parseFloat(str2);
+
+            System.out.println("Sum : "+(num1+num2));
+            System.out.println("Difference : "+(num1-num2));
+            System.out.println("Product : "+(num1*num2));
+            System.out.println("Quotient : "+(num1/num2));
+            obj.close();
         }
     }
 }
