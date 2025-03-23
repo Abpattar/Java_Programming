@@ -24,7 +24,7 @@ public class WaterTank {
     {
         System.out.println("Water Refilled !!");
         iwater = 1500 + iwater;
-        System.out.println("Water Level : "+iwater);
+        System.out.println("Current Water Level : "+iwater);
     }
     public static void main(String[] args)
     {
