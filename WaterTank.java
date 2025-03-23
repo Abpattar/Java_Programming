@@ -30,6 +30,7 @@ public class WaterTank {
     {
         try{
             int n;
+            System.out.println("Initial Water level : "+iwater);
             do{
             System.out.println("Enter the Block Name : ");
             Scanner obj = new Scanner(System.in);
