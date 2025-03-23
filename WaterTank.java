@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class WaterTank {
     static int iwater = 1500;
     
@@ -21,7 +23,15 @@ public class WaterTank {
     }
     public stativ void main(String[] args)
     {
-        
+        try{
+            System.out.println("Enter the Block Name : ");
+            Scanner obj = new Scanner(System.in);
+            String block = obj.nextLine();
+            System.out.println("Enter the Water Used : ");
+            int amt = obj.nextInt();
+            WaterUsed(block,amt);
+            obj.close();
+        }catch(Exception e){System.out.println("Invalid Input");}
     }
     
 }
