@@ -39,6 +39,7 @@ public class WaterTank {
             WaterUsed(block,amt);
             System.out.println("Do you want to continue ? (1/0)");
             n = obj.nextInt();
+            obj.close();
             }while(n == 1);
 
         }catch(Exception e){System.out.println("Invalid Input");}
