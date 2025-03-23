@@ -24,6 +24,7 @@ public class WaterTank {
     public static void main(String[] args)
     {
         try{
+            int n;
             do{
             System.out.println("Enter the Block Name : ");
             Scanner obj = new Scanner(System.in);
@@ -32,9 +33,9 @@ public class WaterTank {
             int amt = obj.nextInt();
             WaterUsed(block,amt);
             System.out.println("Do you want to continue ? (1/0)");
-            int n = obj.nextInt();
+            n = obj.nextInt();
             }while(n == 1);
-            obj.close();
+
         }catch(Exception e){System.out.println("Invalid Input");}
     }
     
