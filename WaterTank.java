@@ -24,12 +24,16 @@ public class WaterTank {
     public static void main(String[] args)
     {
         try{
+            do{
             System.out.println("Enter the Block Name : ");
             Scanner obj = new Scanner(System.in);
             String block = obj.nextLine();
             System.out.println("Enter the Water Used : ");
             int amt = obj.nextInt();
             WaterUsed(block,amt);
+            System.out.println("Do you want to continue ? (1/0)");
+            int n = obj.nextInt();
+            }while(n == 1);
             obj.close();
         }catch(Exception e){System.out.println("Invalid Input");}
     }
