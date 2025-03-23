@@ -7,7 +7,7 @@ public class WaterTank {
     {
         System.out.println("Block : "+bck +" Water Used : "+amt +" Litres");
         iwater = iwater - amt;
-        System.out.println(" Water Remaining : "+iwater);
+        System.out.println("Water Remaining : "+iwater);
 
         if(iwater <= 100)
         {
