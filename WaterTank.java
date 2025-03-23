@@ -5,6 +5,11 @@ public class WaterTank {
     
     static void WaterUsed(String bck , int amt)
     {
+        if(amt > iwater)
+        {
+            System.out.println("Insufficient Water !!");
+            return;
+        }
         System.out.println("Block : "+bck +" Water Used : "+amt +" Litres");
         iwater = iwater - amt;
         System.out.println("Water Remaining : "+iwater);
