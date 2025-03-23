@@ -21,7 +21,7 @@ public class WaterTank {
         iwater = 1500 + iwater;
         System.out.println("Water Level : "+iwater);
     }
-    public stativ void main(String[] args)
+    public static void main(String[] args)
     {
         try{
             System.out.println("Enter the Block Name : ");
