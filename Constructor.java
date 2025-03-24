@@ -2,11 +2,10 @@ import java.util.*;
 import java.io.*;
 
 public class Constructor {
-    class Constructor{
+
         String name;
         long rol;
-        double cgpa;
-    }    
+        double cgpa;     
     Constructor()
     {
         System.out.println("This is a constructor");
