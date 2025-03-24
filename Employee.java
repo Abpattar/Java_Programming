@@ -23,9 +23,9 @@ public class Employee {
     }
     public static void main(String args[])
     {
-        Employee e1 = new Employee(1,"Raj");
-        Employee e2 = new Employee(2,"Ravi");
-        Employee e3 = new Employee(3,"Rahul");
+        Employee e1 = new Employee(1,"Natan");
+        Employee e2 = new Employee(2,"Sam");
+        Employee e3 = new Employee(3,"Sully");
         e1.display();
         e2.display();
         e3.display();
