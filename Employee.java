@@ -2,7 +2,7 @@ public class Employee {
     int empid;
     String empname;
     static int empcount = 0;
-    static String companyname = "Shimbala";
+    static String companyname = "Shimbala Tech";
     Employee(int id , String n)
     {
         empid = id;
