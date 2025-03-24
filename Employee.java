@@ -19,7 +19,7 @@ public class Employee {
     }
     static void changecompanyname()
     {
-        companyname = "Shimbala Tech";
+        companyname = "Madagascar Tech";
     }
     public static void main(String args[])
     {
