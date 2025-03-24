@@ -19,6 +19,7 @@ public class Constructor {
         rol = sc.nextLong();
         cgpa = sc.nextDouble();
         System.out.println(" ");
+        sc.close();
     }
     void display()
     {
@@ -32,4 +33,5 @@ public class Constructor {
         c.input();
         c.display();
     }
+
 }
