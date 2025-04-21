@@ -34,7 +34,7 @@ class marks extends student {
     }
 }
 public class Info_Inheritance
-
+{
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
@@ -48,6 +48,8 @@ public class Info_Inheritance
         int c = sc.nextInt();
         marks m = new marks(n, r, a, b, c);
         m.display();
+        sc.close();
     }
     
+}  
 
