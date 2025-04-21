@@ -34,7 +34,6 @@ class marks extends student {
     }
 }
 public class Info_Inheritance(SL)
-{
 
     public static void main(String args[])
     {
