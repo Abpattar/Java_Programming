@@ -33,7 +33,7 @@ class marks extends student {
         System.out.println("Marks 3 : " + m3);
     }
 }
-public class Info_Inheritance(SL)
+public class Info_Inheritance
 
     public static void main(String args[])
     {
